@@ -1,7 +1,16 @@
 import React from "react";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <div className="navbar">
+      <span className="logo"> Zobi Chat</span>
+      <div className="user">
+        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <span>John</span>
+        <button>LogOut</button>
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;

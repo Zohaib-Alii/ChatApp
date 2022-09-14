@@ -15,9 +15,12 @@ const Search = () => {
           />
         </div>
         <div className="userChat">
-          <img alt="" />
+          <img
+            src="https://images.pexels.com/photos/11293719/pexels-photo-11293719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="chat img"
+          />
           <div className="userChatInfo">
-            <span>userr</span>
+            <span>user</span>
           </div>
         </div>
       </div>
