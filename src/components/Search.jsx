@@ -38,7 +38,7 @@ const Search = () => {
       <div className="search">
         <button onClick={sortingg}> perform</button>
         <button onClick={minNumr}>Least No print</button>
-        <button onClick={printThisPage}>print this page </button>
+        <button onClick={printThisPage}>prrrint this page </button>
         <div className="searchForm">
           <input
             type="text"
