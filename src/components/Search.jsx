@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = () => {
   // var Arr = [1, 7, 2, 8, 3, 4, 5, 0, 9];
-  var Arr = [3, 8, 6, 1, 0];
+  var Arr = [11, 4, 33, 7, 3, 8, 6, 1, 0];
   const sortingg = () => {
     for (let i = 1; i < Arr.length; i++) {
       debugger;
